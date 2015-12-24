@@ -1,0 +1,7 @@
+app:
+  build: .
+  container_name: JsonServer-Mockup
+  ports:
+  - "3000:3000"
+  volumes:
+  - ../../json-server:/srv/www/json-server/
