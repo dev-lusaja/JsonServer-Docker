@@ -4,4 +4,4 @@ app:
   ports:
   - "3000:3000"
   volumes:
-  - ../../json-server:/srv/www/json-server/
+  - ../../JsonServer-Docker:/srv/www/json-server/
