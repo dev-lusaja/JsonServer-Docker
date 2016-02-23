@@ -39,7 +39,9 @@ docker-compose up
 
 * Probar la conexión al seridor local
 ~~~
-http://localhost:3000/personas
-http://localhost:3000/emails
-http://localhost:3000/direcciones
+http://192.168.99.100:3000/personas
+http://192.168.99.100:3000/emails
+http://192.168.99.100:3000/direcciones
 ~~~
+
+PD: Cuando utilizas docker, este te asigna una ip para la maquina virtual que por defecto es: 192.168.99.100
